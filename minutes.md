@@ -31,3 +31,15 @@ All members present.
 Meeting minutes recorded by Nicole
 
 **Next meeting: Wednesday, September 16 @ 12:00 pm**
+
+## September 16, 2015
+All members present
+
+- Reviewed minutes from previous meeting, no changes made.
+- Reviewed course outline to create Project Plan without specific due dates.
+- Reviewed Project description to create Project Charter.
+- Statement of Scope document still needs to be created. (undetermined how we will continue with this)
+
+Meeting minutes recorded by Nicole
+
+**Next meeting is scheculed for Wednesday, September 23rd**

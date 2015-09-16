@@ -29,4 +29,5 @@ All members present.
    - Statement of Scope -> How you feel your project will be best implemented. Scope & Scale
 
 Meeting minutes recorded by Nicole
+
 **Next meeting: Wednesday, September 16 @ 12:00 pm**

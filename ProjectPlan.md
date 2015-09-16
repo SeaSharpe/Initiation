@@ -7,7 +7,7 @@
 - project charter
 - GitHub
 
-## Requirement Analysis (3 weeks)
+## Requirement Analysis (2 weeks)
 - Use Case Diagrams
 - **Use Case Description with Activity Flow, presented using Activity Diagrams**
 - User Stories
@@ -26,7 +26,7 @@
 - **Data Dictionary (with field level definitions)**
 - **Deploymen Diagram**
 
-## Implementation (3 weeks)
+## Implementation (4 weeks)
 - **Unit test plan and results**
 - **Source Code**
 - **User/System test plan(s) and results**

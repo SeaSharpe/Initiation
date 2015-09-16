@@ -1,5 +1,5 @@
 # Meetings
-# September 15, 2015
+## September 15, 2015
 All members present.
 
 - Team created (Sea Sharpe)

@@ -30,8 +30,8 @@
 - **Unit test plan and results**
 - **Source Code**
 - **User/System test plan(s) and results**
-- **Presentation slides??*
+- **Presentation slides??**
 
 ## Deployment & Documentation
-- **Deployment Guide*
+- **Deployment Guide**
 - **User and Technical Documentation**

@@ -3,7 +3,6 @@
 All members present.
 
 - Team created (Sea Sharpe)
-
 - John got members set up on Hangout and GitHub
 - Nicole drafted Team Charter document
 - Members filled out "Individual Skills and Interests Self-Assessment" forms

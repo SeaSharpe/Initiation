@@ -9,29 +9,29 @@
 
 ## Requirement Analysis (2 weeks)
 - Use Case Diagrams
-- **Use Case Description with Activity Flow, presented using Activity Diagrams**
+- Use Case Description with Activity Flow, presented using Activity Diagrams
 - User Stories
-- **Analysis-level (Domain)** Class Diagram
-- **System Sequence Diagrams**
+- Analysis-level (Domain) Class Diagram
+- System Sequence Diagrams
 - Entities List
-- Wireframes **(moved from design)**
+- Wireframes
 
 ## Design (3 weeks)
 - ERD
-- **Design-level** Class Diagram
+- Design-level Class Diagram
 - User Interface Prototypes
-- **Design-level Sequence Diagrams**
-- **Navigation Diagrams**
-- **Report Designs??**
-- **Data Dictionary (with field level definitions)**
-- **Deploymen Diagram**
+- Design-level Sequence Diagrams
+- Navigation Diagrams
+- Report Designs
+- Data Dictionary (with field level definitions)
+- Deployment Diagram
 
 ## Implementation (4 weeks)
-- **Unit test plan and results**
-- **Source Code**
-- **User/System test plan(s) and results**
-- **Presentation slides??**
+- Unit test plan and results
+- Source Code
+- User/System test plan(s) and results
+- Presentation slides (if there's a presentation)
 
 ## Deployment & Documentation
-- **Deployment Guide**
-- **User and Technical Documentation**
+- Deployment Guide
+- User and Technical Documentation

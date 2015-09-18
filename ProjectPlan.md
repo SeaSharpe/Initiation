@@ -30,7 +30,7 @@
 - Unit test plan and results
 - Source Code
 - User/System test plan(s) and results
-- Presentation slides (if there's a presentation)
+- Presentation slides
 
 ## Deployment & Documentation
 - Deployment Guide

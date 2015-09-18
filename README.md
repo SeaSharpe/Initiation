@@ -8,5 +8,8 @@ The project charter represents a brief summory of the purpose and goals of our s
 ## [Project Plan](./ProjectPlan.md)
 Our project plan outlines the timelines for each phase of our solution.
 
+## [Statement of Scope](./StatementOfScope.md)
+This document outlines what this project is as well as what it isn't. 
+
 ## [Team Charter](./TeamCharter.md)
 The team charter lists our team members, purpose, goals and guidelines. 

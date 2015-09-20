@@ -34,4 +34,11 @@ Realistic:
 
 
 Time Bound:
-- Need to list specific dates, ie start and end date and any milestones
+- Initiation
+  - Due September 25, 2015
+- Requirement Analysis
+  - Due October 16, 2015
+- Design
+  - Due November 13, 2015
+- Implementation
+  - Due December 18, 2015

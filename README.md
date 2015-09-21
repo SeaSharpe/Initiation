@@ -13,3 +13,6 @@ This document outlines what this project is as well as what it isn't.
 
 ## [Team Charter](./TeamCharter.md)
 The team charter lists our team members, purpose, goals and guidelines. 
+
+## [Entities](./Entities.md)
+A list of entities in the form of SQL tables. 

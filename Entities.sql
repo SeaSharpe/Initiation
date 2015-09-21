@@ -33,7 +33,7 @@ DROP TABLE IF EXISTS `emailAddress`;
 CREATE TABLE `emailAddress` (
   `userAddressID` INTEGER NULL AUTO_INCREMENT DEFAULT NULL,
   `email` VARCHAR(200) NOT NULL DEFAULT 'NULL',
-  `verification_key` CHAR(32) NULL DEFAULT NULL,
+  `verificationKey` CHAR(32) NULL DEFAULT NULL,
   PRIMARY KEY (`userAddressID`, `email`)
 );
 
@@ -45,10 +45,10 @@ CREATE TABLE `emailAddress` (
 DROP TABLE IF EXISTS `User`;
 		
 CREATE TABLE `User` (
-  `user_id` INTEGER NULL AUTO_INCREMENT DEFAULT NULL,
+  `id` INTEGER NULL AUTO_INCREMENT DEFAULT NULL,
   `password_hash` CHAR(32) NULL DEFAULT NULL,
   `hash_salt` CHAR(4) NULL DEFAULT NULL,
-  PRIMARY KEY (`user_id`)
+  PRIMARY KEY (`id`)
 );
 
 -- ---
@@ -73,7 +73,7 @@ DROP TABLE IF EXISTS `userAddress`;
 		
 CREATE TABLE `userAddress` (
   `id` INTEGER NULL AUTO_INCREMENT DEFAULT NULL,
-  `user_id` INTEGER NULL DEFAULT NULL,
+  `userID` INTEGER NULL DEFAULT NULL,
   `dateCreated` DATE NULL DEFAULT NULL,
   `dateExpired` DATE NULL DEFAULT NULL,
   `dateVerified` DATE NULL DEFAULT NULL,
@@ -90,7 +90,7 @@ DROP TABLE IF EXISTS `order`;
 		
 CREATE TABLE `order` (
   `id` INTEGER NULL AUTO_INCREMENT DEFAULT NULL,
-  `user_id` INTEGER NULL DEFAULT NULL,
+  `userID` INTEGER NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) COMMENT 'Before complete this is the "Cart", after complete this is y';
 
@@ -169,8 +169,8 @@ CREATE TABLE `gameCategory` (
 
 ALTER TABLE `userAddress` ADD FOREIGN KEY (id) REFERENCES `emailAddress` (`userAddressID`);
 ALTER TABLE `userAddress` ADD FOREIGN KEY (id) REFERENCES `postalAddress` (`userAddressID`);
-ALTER TABLE `userAddress` ADD FOREIGN KEY (user_id) REFERENCES `User` (`user_id`);
-ALTER TABLE `order` ADD FOREIGN KEY (user_id) REFERENCES `User` (`user_id`);
+ALTER TABLE `userAddress` ADD FOREIGN KEY (userID) REFERENCES `User` (`id`);
+ALTER TABLE `order` ADD FOREIGN KEY (userID) REFERENCES `User` (`id`);
 ALTER TABLE `orderItem` ADD FOREIGN KEY (orderID) REFERENCES `order` (`id`);
 ALTER TABLE `orderItem` ADD FOREIGN KEY (gameID) REFERENCES `game` (`id`);
 ALTER TABLE `gamePlatform` ADD FOREIGN KEY (gameID) REFERENCES `game` (`id`);
@@ -200,15 +200,15 @@ ALTER TABLE `gameCategory` ADD FOREIGN KEY (categoryID) REFERENCES `category` (`
 
 -- INSERT INTO `postalAddress` (`userAddressID`,`addressLine1`,`addressLine2`,`city`,`region`,`country`,`postalCode`) VALUES
 -- ('','','','','','','');
--- INSERT INTO `emailAddress` (`userAddressID`,`email`,`verification_key`) VALUES
+-- INSERT INTO `emailAddress` (`userAddressID`,`email`,`verificationKey`) VALUES
 -- ('','','');
--- INSERT INTO `User` (`user_id`,`password_hash`,`hash_salt`) VALUES
+-- INSERT INTO `User` (`id`,`password_hash`,`hash_salt`) VALUES
 -- ('','','');
 -- INSERT INTO `game` (`id`,`name`) VALUES
 -- ('','');
--- INSERT INTO `userAddress` (`id`,`user_id`,`dateCreated`,`dateExpired`,`dateVerified`,`allowMarketing`) VALUES
+-- INSERT INTO `userAddress` (`id`,`userID`,`dateCreated`,`dateExpired`,`dateVerified`,`allowMarketing`) VALUES
 -- ('','','','','','');
--- INSERT INTO `order` (`id`,`user_id`) VALUES
+-- INSERT INTO `order` (`id`,`userID`) VALUES
 -- ('','');
 -- INSERT INTO `orderItem` (`orderID`,`gameID`,`quantity`,`salePrice`) VALUES
 -- ('','','','');

@@ -70,7 +70,7 @@
 <row name="email" null="0" autoincrement="0">
 <datatype>VARCHAR(200)</datatype>
 <default>'NULL'</default></row>
-<row name="verification_key" null="1" autoincrement="0">
+<row name="verificationKey" null="1" autoincrement="0">
 <datatype>CHAR(32)</datatype>
 <default>NULL</default></row>
 <key type="PRIMARY" name="">
@@ -79,7 +79,7 @@
 </key>
 </table>
 <table x="175" y="324" name="User">
-<row name="user_id" null="1" autoincrement="1">
+<row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
 <row name="password_hash" null="1" autoincrement="0">
@@ -89,7 +89,7 @@
 <datatype>CHAR(4)</datatype>
 <default>NULL</default></row>
 <key type="PRIMARY" name="">
-<part>user_id</part>
+<part>id</part>
 </key>
 </table>
 <table x="648" y="97" name="game">
@@ -109,9 +109,9 @@
 <default>NULL</default><relation table="emailAddress" row="userAddressID" />
 <relation table="postalAddress" row="userAddressID" />
 </row>
-<row name="user_id" null="1" autoincrement="0">
+<row name="userID" null="1" autoincrement="0">
 <datatype>INTEGER</datatype>
-<default>NULL</default><relation table="User" row="user_id" />
+<default>NULL</default><relation table="User" row="id" />
 </row>
 <row name="dateCreated" null="1" autoincrement="0">
 <datatype>DATE</datatype>
@@ -133,9 +133,9 @@
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
-<row name="user_id" null="1" autoincrement="0">
+<row name="userID" null="1" autoincrement="0">
 <datatype>INTEGER</datatype>
-<default>NULL</default><relation table="User" row="user_id" />
+<default>NULL</default><relation table="User" row="id" />
 </row>
 <key type="PRIMARY" name="">
 <part>id</part>

@@ -24,21 +24,23 @@ and view and print reports. Overall, we aim to create an appealing, robust, easy
 
 ### Measureable:
 - (What/How are we measuring key aspects of the project?)
+- We will use the use case diagrams to determine the key aspects of the project
+- When we have completed all components of the user stories and use case descriptions, then the project will be complete
+- All unit tests must pass; unit tests must cover 85% of branches
 
 ### Agreed Upon:
 - (Are we all agreed upon the project and how best to execute?)
 - We are agreed upon for the due dates for each phase
-- We are agreed upon what the project will encompass
+- We are agreed upon what the project will encompass; we will not add extra features until the base functionality is done
 - We are agreed upon for our roles within the group
-
+- We will agree on the technology to use
 
 ### Realistic:
-- (Is the project / goals realistic?  Scope, Time?)
+- (Is the project / goals realistic? Scope, Time, Cost?)
 - The goals for this project are realistic for our group
-  - Scope:
-  - Time:
-  - Cost: Our souls :poop:
-
+  - Scope: We feel that the scope is manageable for our group
+  - Time: We feel that we will be able to complete each section of the project on time
+  - Cost: FREE
 
 ### Time Bound:
 - Initiation

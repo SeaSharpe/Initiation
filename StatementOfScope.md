@@ -1,14 +1,12 @@
-# Statement of Scope (Draft - Brainstorming) 
-
-Good link: http://www.brighthubpm.com/project-planning/57950-example-and-evaluation-of-project-scope-statements/
+# Statement of Scope
 
 The statement of scope should have these attributes as a minimum:
 
-Specific
-Measureable
-Agreed upon
-Realistic
-Time Bound
+- Specific
+- Measureable
+- Agreed upon
+- Realistic
+- Time Bound
 
 ## Our current project charter is:
 
@@ -18,9 +16,9 @@ This application will also provide CVGS employees with the ability to add, edit,
 and view and print reports. Overall, we aim to create an appealing, robust, easy-to-use application.
 
 ### Specific:
-- to create a space where users can purchase games and connect with each other.
-- app must be engaging so that it retains current users and brings back any that may have left.
-- app must provide CVGS employees with the ability to add, edit, and delete games, enter event data, and view and print reports.
+- To create a space where users can purchase games and connect with each other.
+- App must be engaging so that it retains current users and brings back any that may have left.
+- App must provide CVGS employees with the ability to add, edit, and delete games, enter event data, and view and print reports.
 
 ### Measureable:
 - (What/How are we measuring key aspects of the project?)

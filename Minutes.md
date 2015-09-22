@@ -43,3 +43,30 @@ All members present
 Meeting minutes recorded by Nicole
 
 **Next meeting is scheculed for Wednesday, September 23rd**
+
+## September 18, 2015
+
+Requirement Analysis tasks divided between group members
+
+- Dan 
+  - User Stories
+- John
+  - Entities List
+- Manuel
+  - System Sequence Diagram
+- Nicole
+  - Use Case Diagram
+- Peter
+  - Analysis-Level (domain) Class Diagram
+- Rob
+   - Use Case Descriptions with Activity Flow, Presented using Activity Diagrams
+- Steve
+  - Wire Frames
+ 
+## September 22, 2015
+
+All members present for class work period
+
+- Brainstormed to finish Statement of Scope document
+- Printed all initiation documents
+- Handed in initiation documents
